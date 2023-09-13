@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "368451681108",
+    "project_id": "kotlinfbasecrud",
+    "storage_bucket": "kotlinfbasecrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368451681108:android:9b6c35178636b05bee26c1",
+        "android_client_info": {
+          "package_name": "com.hftamayo.kotlinfbasecrud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR5anc6lTPJ8hAUKN3S_Zm2Ty0RETVmxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368451681108:android:b32218e3a8f193baee26c1",
+        "android_client_info": {
+          "package_name": "com.hftamayo.kotlinfbasecrudadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR5anc6lTPJ8hAUKN3S_Zm2Ty0RETVmxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
