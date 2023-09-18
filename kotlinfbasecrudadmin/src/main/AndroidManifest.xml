@@ -8,6 +8,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlinfbasecrud">
         <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
