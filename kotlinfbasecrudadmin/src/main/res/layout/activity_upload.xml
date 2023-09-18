@@ -46,10 +46,10 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:id="@+id/uploaVehicleRTQ"
+            android:id="@+id/uploadVehicleRTO"
             android:background="@drawable/skyblue_border"
             android:layout_marginTop="20dp"
-            android:hint="Enter vehicle RTQ"
+            android:hint="Enter vehicle RTO"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:gravity="start|center_vertical"
