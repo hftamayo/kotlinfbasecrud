@@ -1,7 +1,9 @@
 package com.hftamayo.kotlinfbasecrudadmin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.hftamayo.kotlinfbasecrudadmin.databinding.ActivityUploadBinding
@@ -26,6 +28,13 @@ class UploadActivity : AppCompatActivity() {
                 binding.uploadVehicleBrand.text.clear()
                 binding.uploadVehicleRTO.text.clear()
                 binding.uploadVehicleNumber.text.clear()
+
+                Toast.makeText(this, "Data saved", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this@UploadActivity, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            }.addOnFailureListener{
+                Toast.makeText(this, "An error occurs, the data could not be saved", Toast.LENGTH_SHORT).show()
             }
         }
     }
