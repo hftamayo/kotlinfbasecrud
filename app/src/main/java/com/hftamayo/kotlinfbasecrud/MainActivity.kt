@@ -14,6 +14,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.searchButton.setOnClickListener{
+            val searchVehicleNumber: String = binding.searchVehicleNumber.text.toString()
+            if(searchVehicleNumber.isNotEmpty()){
+                readData(searchVehicleNumber)
+            } else {
+                Toast.makeText(this, "Please enter the vehicle number", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     private fun readData(vehicleNumber: String){
@@ -31,6 +40,9 @@ class MainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "No results found", Toast.LENGTH_SHORT).show()
             }
+        }.addOnFailureListener{
+            Toast.makeText(this, "something went wrong", Toast.LENGTH_SHORT).show()
+
         }
     }
 }
