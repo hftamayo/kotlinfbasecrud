@@ -8,6 +8,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlinfbasecrud">
         <activity
+            android:name=".DeleteActivity"
+            android:exported="false" />
+        <activity
             android:name=".UpdateActivity"
             android:exported="false" />
         <activity
