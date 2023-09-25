@@ -20,6 +20,8 @@ class UpdateActivity : AppCompatActivity() {
             val updateOwner = binding.updateOwnerName.text.toString()
             val updateVehicleBrand = binding.updateVehicleBrand.text.toString()
             val updateVehicleRTO = binding.updateVehicleRTO.text.toString()
+
+            updateData(referenceVehicleNumber, updateOwner, updateVehicleBrand, updateVehicleRTO)
         }
     }
 
