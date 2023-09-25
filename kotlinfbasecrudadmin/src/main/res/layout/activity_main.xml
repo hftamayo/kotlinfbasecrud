@@ -41,6 +41,19 @@
             android:layout_marginStart="10dp"
             app:cornerRadius = "20dp"
             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Delete"
+            android:id="@+id/mainDelete"
+            android:textSize="18sp"
+            android:backgroundTint="@color/skyblue"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:cornerRadius = "20dp"
+            />
+
         </LinearLayout>
 
 </LinearLayout>
